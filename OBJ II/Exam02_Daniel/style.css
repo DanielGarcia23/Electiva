@@ -1,0 +1,90 @@
+/* DIVISION EN BLOQUES / FONT */
+
+header, nav, section, footer, hgroup{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* TEXTO DEL CENTRO */
+
+body{
+    text-align: center;
+    color: white;
+}
+
+/* ELEMENTOS DE LA CAJA DIV */
+
+.agrupar{
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+    width: auto;
+    margin: auto;
+    height: auto;
+    padding: 40px;
+}
+
+.header{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+/*BARRA DE NAVEGACION*/
+
+.menu{
+    margin-right: 60px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: auto;
+    margin-top: 40px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+/*TITULO PRINCIPAL*/
+
+.centro h2{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 85px;
+}
+
+/* PIE DE PAGINA - BOTONES*/
+
+.piedepagina{
+    margin-top: 75px;
+    padding: auto;
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+#botonimagenUNO{
+    background-image: url(img/facebook.png);
+    background-position: auto;
+    height: 64px;
+    width: 64px;
+    border-radius: 10px 10px;
+}
+
+#botonimagenDOS{
+    background-image: url(img/twitter.png);
+    background-position: auto;
+    height: 64px;
+    width: 64px;
+    border-radius: 10px 10px;
+}
+
+#botonimagenTRES{
+    background-image: url(img/instagram.png);
+    background-position: -2px;
+    height: 64px;
+    width: 64px;
+    border-radius: 10px 10px;
+}
