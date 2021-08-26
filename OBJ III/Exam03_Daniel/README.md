@@ -1,3 +1,3 @@
-# Simple HTML Contact Form
+# Registro de Formulario
 
 ![](docs/contact-form.png)
