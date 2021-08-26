@@ -32,7 +32,7 @@ form.addEventListener("submit", e=>{
         entrar = true
     }
 
-    if(estado.value.length <7){
+    if(estado.value.length <5){
         warnings += `Estado Civil no valido <br>`
         entrar = true
     }
